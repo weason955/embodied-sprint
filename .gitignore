@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+
+# Data & artifacts
+data/
+datasets/
+outputs/
+checkpoints/
+*.bag
+*.db3
+*.mcap
+*.mp4
+*.parquet
+*.pt
+*.pth
+*.onnx
+
+# Logs
+logs/
+wandb/
+*.log
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
